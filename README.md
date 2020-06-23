@@ -10,7 +10,8 @@ On the other hand, this approach leads to more execution time overhead, both per
 A compromise between the two approaches is [`PyTest.jl`](https://github.com/pdobacz/PyTest.jl) which extends `Test` to add more advanced fixture functionality.
 
 A brief usage example:
-```
+
+```julia
 using Jute
 
 # constant fixture - any iterable
